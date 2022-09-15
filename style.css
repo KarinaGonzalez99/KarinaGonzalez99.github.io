@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Candy';
+    src: url('Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Cute';
+    src: url('Cute.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+
+body {
+  font-family: 'Candy';
+  font-size: 50px;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
+  background-size: cover;
+  background-color: #8FCACA;
+}
+h2 {
+  font-family: 'Cute';
+  font-weight: normal;
+  font-style: normal;  
+  text-align: center      
+}
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+h3 {
+  text-align: center;  
+ }
+figure {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+ul {
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+}
+#indice {
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+}
+#legendafoto {
+  text-align: center;
+}
+
