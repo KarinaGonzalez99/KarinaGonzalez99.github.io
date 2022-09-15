@@ -10,22 +10,64 @@
           font-weight: normal;
           font-style: normal;
         }
+        @font-face {
+          font-family: 'Cute';
+          src: url('Cute.ttf') format('truetype');
+          font-weight: normal;
+          font-style: normal;}
+
       body {
         font-family: 'Candy';
         font-size: 50px;
         background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
         background-size: cover;
+        background-color: #8FCACA;
       }
+      h2 {
+        font-family: 'Cute';
+        font-weight: normal;
+        font-style: normal;  
+        text-align: center      
+      }
+      h1 {
+        text-decoration: underline;
+        text-align: center;
+      }
+      h3 {
+        text-align: center;  
+       }
+      figure {
+        text-align: center;
+      }
+      p {
+        text-align: justify;
+      }
+      ul {
+        text-align: center;
+        margin: 0 auto;
+        width: 30%;
+      }
+      #indice {
+        text-align: left;
+        margin: 0 auto;
+        width: 90%;
+      }
+      #legendafoto {
+        text-align: center;
+      }
+
+
+
     </style>
   </head> 
   <body>
-    <h1 id="2">Portifólio <img src= 'https://i.pinimg.com/originals/3b/06/ee/3b06ee2cc6a317ccdc098b4ab36a8388.gif' width= 100px></h1>
-    <h2 id="6">Karina Gonzalez</h2>
-    <h3>Estudante de desenvolvimento web da Trybe</h3>
+    <h1 id="2">Portifólio<img src= 'https://i.pinimg.com/originals/3b/06/ee/3b06ee2cc6a317ccdc098b4ab36a8388.gif' width= 100px></h1>
+    <h2 id="6"><strong>Karina Gonzalez</strong></h2>
+    <h3><em>Estudante de desenvolvimento web da Trybe</em></h3>
     <figure>
       <img id="1"src="dsf.png" width="400px" alt="Imagem da Karina, estudante de desenvolvimento web" /> 
       <figcaption>
-      <p>Karina Gonzalez</p>
+      <p id="legendafoto">Karina Gonzalez</p>
     </figcaption>
   </figure>
     <p id="3"> <strong> Sobre mim:</strong><br>Me chamo Karina Gonzalez, tenho 23 anos, nasci em São Paulo, e morei muitos anos no interior, numa cidadezinha chamada Indaiatuba, porém com meus 18 anos voltei sozinha para São Paulo para virar dentista. Depois de formada sentia que ainda não estava completa profissionalmente!<br>Fui atrás de informação, e após muito estudo descobri as maravilhas do<strong> Desenvolvimento Web</strong> e acabei me apaixonando! <br> Atualmente estou estudando na <em> Trybe</em> na minha casinha aqui em São Paulo com a minha cachorrinha chamada Sunna e meu namorado, que também cursa a <em>Trybe</em><br><br></p>
@@ -34,15 +76,17 @@
         <li>Inglês Avançado</li>
         <li>Empática</li>
         <li>Engraçada</li>
-        </ul>
+       </ul>
+        <br><br>
     <ul id="5"><strong>O que eu gosto?</strong>
     <li>Dublo alguns personagens por diversão</li>
     <li>Jogar</li>
     <li>Amo terror</li>
     <li>Toco violão e guitarra</li>
+    <li>Cachorros</li>
 </ul>
-<br>
-<ul><strong>Índice:</strong></ul>
+<br><br><br>
+<ul id="indice"><strong>Índice:</strong>
     <li><a href="#6">Nome</a></li>
     <li><a href="#1">Foto</a></li>
     <li><a href="#3">Descrição</a></li>
@@ -50,5 +94,6 @@
     <li><a href="#5">Gostos</a></li>
     <li><a href="https://store.steampowered.com/?l=portuguese" target ="_blank">Meu site favorito</a></li>
     <li><a href="#2">Início</a></li>
+  </ul>
   </body>
 </html>
