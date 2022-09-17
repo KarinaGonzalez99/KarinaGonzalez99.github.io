@@ -120,10 +120,26 @@ padding-bottom: 50px;
   border-top-right-radius: 100px;
   padding-left: 50px;
   padding-right: 50px;
+  z-index: 6;
 }
 .mds {
   text-align: center;
   left:150px;
   position: absolute;
   top:3000px;
+}
+.doguinho {
+  position: absolute;
+  top: 2800px;
+  left: 55px;
+  right: 25px;
+  z-index: 4;
+  padding-bottom: 150px;
+}
+.doguinho2 {
+  position: absolute;
+  top: 4000px;
+  left: 750px;
+  right: 25px;
+  padding-bottom: 150px;
 }
