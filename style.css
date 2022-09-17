@@ -14,6 +14,8 @@ body {
 font-family: 'Candy';
 font-size: 50px;
 background-color: #ECD5E3;
+background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
+background-attachment: fixed;
 }
 h1 {
 font-family: 'Cute';
@@ -26,7 +28,8 @@ text-decoration: underline;
 h2 {
 text-align: center;
 position:absolute;
-left: 600px;
+left: 250px;
+right: 250px;
 top: 900px;
 color: #97c1a9;
 border-style:dotted ;
@@ -60,7 +63,7 @@ font-weight: bold;
 }
 #habilidades {
 position:absolute;
-top: 1950px;
+top: 2000px;
 left: 150px;
 border-style:dotted ;
 border-color: #ce6c88;
@@ -74,7 +77,7 @@ padding-bottom: 50px;
 #gostos {
   position:absolute;
   left: 950px;
-  top: 1950px;
+  top: 2000px;
   border-style:dotted ;
   border-color: #ce6c88;
   border-width: 10px;
@@ -87,8 +90,9 @@ padding-bottom: 50px;
 
 .sobre {
   position: absolute;
-    width: 2000px;
+    width: 1500px;
   left: 125px;
+  right: 125px;
   top: 1200px;
   border-color: #ce6c88;
   border-width: 20px;
