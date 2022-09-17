@@ -62,8 +62,8 @@ font-weight: bold;
 }
 #habilidades {
 position:absolute;
-top: 170%;
-left: 5%;
+top: 1950px;
+left: 150px;
 border-style:dotted ;
 border-color: #ce6c88;
 border-width: 10px;
@@ -75,8 +75,8 @@ padding-bottom: 50px;
 }
 #gostos {
   position:absolute;
-  left: 57%;
-  top: 170%;
+  left: 1350px;
+  top: 1950px;
   border-style:dotted ;
   border-color: #ce6c88;
   border-width: 10px;
@@ -89,9 +89,9 @@ padding-bottom: 50px;
 
 .sobre {
   position: absolute;
-    width: 85%;
-  left: 5%;
-  top: 102%;
+    width: 2000px;
+  left: 125px;
+  top: 1200px;
   border-color: #ce6c88;
   border-width: 20px;
   border-style:dotted;
@@ -106,8 +106,8 @@ padding-bottom: 50px;
 #indice {
   position:fixed;
   bottom:0px;
-  left: 20%;
-  right: 20%;
+  left: 500px;
+  right: 500px;
   font-size: 30px;
   margin-bottom: auto;
   background-color: #cbd8ea;
