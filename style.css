@@ -32,9 +32,9 @@ text-decoration: underline;
 }
 h2 {
 text-align: center;
+width: 1500px;
 position:absolute;
-left: 250px;
-right: 250px;
+margin-left: 285px;
 top: 900px;
 color: #97c1a9;
 border-style:dotted ;
@@ -59,7 +59,6 @@ width: 600px;
 }
 #indice {
 text-align: center;
-;
 }
 #legendafoto {
 text-align: center;
@@ -112,9 +111,10 @@ padding-bottom: 50px;
 }
 #indice {
   position:fixed;
+  width: 800px;
   bottom:0px;
-  left: 500px;
-  right: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
   font-size: 30px;
   margin-bottom: auto;
   background-color: #cbd8ea;
