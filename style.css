@@ -31,7 +31,7 @@ text-decoration: underline;
 }
 h2 {
 text-align: center;
-position:fixed;
+position:absolute;
 left: 250px;
 right: 250px;
 top: 900px;
@@ -132,18 +132,15 @@ padding-bottom: 50px;
   position: absolute;
   top:3000px;
 }
-.doguinho {
-  position: absolute;
-  top: 2800px;
-  left: 55px;
-  right: 25px;
-  z-index: 4;
-  padding-bottom: 150px;
-}
 .doguinho2 {
   position: absolute;
-  top: 4000px;
+  top: 2600px;
   left: 750px;
   right: 25px;
   padding-bottom: 150px;
+}
+#musica {
+  position:fixed;
+  bottom:0px;
+  
 }
