@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Candy';
+    src: url('Use.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Cute';
+    src: url('Cute.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;}
+  
+  body {
+  font-family: 'Candy';
+  font-size: 50px;
+  background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
+  background-attachment: fixed;
+  }
+
+  h1 {
+    text-align: center;
+    color:  #ce6c88;
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: center;
+    color:#97c1a9;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style:dotted ;
+    border-color: #97c1a9;
+    border-width: 10px;
+    border-radius: 50px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;   
+  }
+
+  .fotolegenda {
+    text-align: center;
+    image-orientation: center;
+    margin-left: 1400px;
+    margin-top: 150px;
+  }
+
+  .legenda {
+    color:#ce6c88;
+    font-size: 30px;
+    }
+
+    .tela {
+        position: absolute;
+        top: 500px;
+        margin-left: 90px;
+    }
+
+    .sobre {
+        position: absolute;
+        top: 575px;
+        margin-left: 130px;
+        width: 1100px;
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    .habilidades, .gostos{
+        border-style:dotted ;
+        border-color: #ce6c88; 
+        list-style: none;
+        border-width: 10px;
+        border-radius: 100px;
+        padding-left: 25px;
+        padding-top: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+        
+    }
+
+    .habilidades:hover, .gostos:hover {
+        background-image:url(https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif);
+        background-size:;
+    }
+    
+    .habilidades {
+        margin-right: 1200px;
+        text-align: center;
+        
+    }
+
+    .gostos {
+        text-align: center;
+        margin-right: 1200px;
+    }
+
+    #indice {
+        position:fixed;
+        width: 850px;
+        bottom:0px;
+        margin-left: 400px;
+        margin-right: 500px;
+        font-size: 30px;
+        margin-bottom: auto;
+        background-color: #cbd8ea;
+        border-color: #ce6c88;
+        border-width: 5px;
+        border-style:dotted;
+        border-top-left-radius: 100px;
+        border-top-right-radius: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        z-index: 6;
+      }
+      .musica {
+        position:fixed;
+        bottom:0px;
+        left:0px;
+      }
