@@ -123,6 +123,11 @@ padding-bottom: 50px;
 .ambos {
   display: inline;
 }
+
+.espaço{
+  position: absolute;
+  top: 4000px;
+}
 #indice {
   position:fixed;
   width: 800px;
