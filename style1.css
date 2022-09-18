@@ -21,7 +21,7 @@
   font-size: 50px;
   background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
   background-attachment: fixed;
-  height: 2000px;
+  height: 2500px;
   }
 
   h1 {
@@ -83,9 +83,8 @@
     }
 
     .habilidades:hover, .gostos:hover {
-        background-image:url(https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif);
-        color: white;
-        border-color: white;
+        background-image:url(https://gifs.eco.br/wp-content/uploads/2022/04/gifs-do-cachorro-lambendo-a-tela-1.gif) ;
+        background-size: cover ;
     }
     
     .habilidades {
@@ -134,6 +133,12 @@
         bottom:0px;
         left:0px;
       }
-      
+      .doguinho2 {
+        position: absolute;
+        top: 1900px;
+        right: 200px;
+        left: 720px;
+
+      }
       
     
