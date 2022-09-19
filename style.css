@@ -14,7 +14,7 @@
    html {
         scroll-behavior: smooth;
         height: 100%;
-        cursor: url('/home/kaka/meu-prim-port-web/cursorpeq.png'), pointer;
+        cursor: url('cursorpeq.png'), auto;
       }
       
   body {
@@ -23,7 +23,7 @@
   background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/01/28/Colorful-Watercolor-Background-Graphics-8158369-1.jpg);
   background-attachment: fixed;
   height: 2500px;
-  }
+ }
 
   header {
     text-align: center;
@@ -150,21 +150,34 @@
 
   .musica {
         position:fixed;
-        bottom:0px;
-        left:0px;
+        bottom:5px;
+        right:-260px;
         z-index: 7;
   }
 
-  .music {
+ .music {
       position:fixed;
-      bottom: 10px;
-      left:0px;
-      z-index:9;
-      width:50px;
-  }
-  .music:hover {
-      
-  }
-
+        bottom:10px;
+        right:30px;
+        width: 50px;
+        z-index: 9;
+ }
+ .music:hover {
+      z-index: 1;
+ }
   
-  <audio class='musica' id="musica" autoplay= 'autoplay' loop controls="controls"></audio>
+ .git, .linkedin {
+      position: fixed;
+      left: 20px;
+      width: 50px;
+      }
+
+.linkedin {
+      top: 10px
+}
+
+.git {
+      top: 70px;
+      left: 22px;
+ }
+  
