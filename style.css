@@ -24,10 +24,15 @@
   height: 2500px;
   }
 
-  h1 {
+  header {
     text-align: center;
     color:  #ce6c88;
     text-decoration: underline;
+    font-size: 100px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   h2 {
@@ -43,49 +48,56 @@
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;   
+    display: block;
+    width: 1500px;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 70px;
   }
 
   .fotolegenda {
     text-align: center;
     image-orientation: center;
     margin-left: 1400px;
-    margin-top: 150px;
+    margin-top: 100px;
   }
 
   .legenda {
     color:#ce6c88;
     font-size: 30px;
-    }
+  }
 
-    .tela {
+  .tela {
         position: absolute;
-        top: 500px;
+        top: 400px;
         margin-left: 90px;
-    }
+        margin-top: 3%;
+  }
 
-    .sobre {
+  .sobre {
         position: absolute;
-        top: 575px;
+        top: 475px;
         margin-left: 130px;
+        margin-top: 3.9%;
         width: 1100px;
         font-size: 40px;
         text-align: justify;
-    }
+  }
 
-    .habilidades, .gostos{
+  .habilidades, .gostos{
         border-style:dotted ;
         border-color: #ce6c88; 
         list-style: none;
         border-width: 10px;
         border-radius: 100px;     
-      }
+  }
 
-    .habilidades:hover, .gostos:hover {
+  .habilidades:hover, .gostos:hover {
         background-image:url(https://gifs.eco.br/wp-content/uploads/2022/04/gifs-do-cachorro-lambendo-a-tela-1.gif) ;
         background-size: cover ;
-    }
+  }
     
-    .habilidades {
+  .habilidades {
        text-align: center;
         padding:100px;
         padding-top: 25px;
@@ -95,9 +107,9 @@
         padding-left: 105px ;
         padding-right: 105px;
         
-    }
+  }
 
-    .gostos {
+  .gostos {
         text-align: center;
         padding:100px;
         padding-top: 25px;
@@ -106,9 +118,13 @@
         padding-left: 170px ;
         padding-right: 170px;
         display:inline-block;
-    }
+  }
 
-    #indice {
+  .topicos {
+      display: inline-block;
+  }
+  
+  #indice {
         position:fixed;
         text-align: center;
         width: 850px;
@@ -121,20 +137,19 @@
         border-color: #ce6c88;
         border-width: 5px;
         border-style:dotted;
+        border-bottom: 0px;
         border-top-left-radius: 100px;
         border-top-right-radius: 100px;
         padding-left: 50px;
         padding-right: 50px;
         z-index: 6;
         
-      }
-      .musica {
+  }
+
+  .musica {
         position:fixed;
         bottom:0px;
         left:0px;
-      }
+  }
     
-      .topicos {
-        display: inline-block;
-       }
-    
+  
